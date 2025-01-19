@@ -1,0 +1,37 @@
+.container {
+    margin: 8px auto;
+    max-width: 720px;
+    width: 100%;
+}
+
+.top,
+img {
+    display: block;
+    text-align: center;
+    margin: 16px auto;
+}
+
+.title-text {
+    margin: 16px auto;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text > h2,
+.main-text > h4,
+.main-text > p {
+    text-align: justify;
+    margin: 32px auto;
+}
+
+.top,
+img,
+.title-text {
+    animation: fadeIn 0.75s;
+    transition: 0.5s;
+}
+
+img {
+    animation: fadeIn 0.75s;
+}

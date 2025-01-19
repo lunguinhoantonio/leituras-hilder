@@ -1,0 +1,41 @@
+main {
+    margin: 16px auto;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 8px auto;
+    animation: fadeIn 0.75s;
+    transition: 0.5s;
+}
+
+.top-image-card {
+    display: block;
+    margin: auto;
+}
+
+.top-image-card img {
+    transition: ease 0.2s;
+}
+
+.top-image-card img:hover {
+    transform: scale(1.025);
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 8px;
+}
+
+.card-title > p {
+    font-size: 20px;
+}
