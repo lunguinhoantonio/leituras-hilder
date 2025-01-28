@@ -11,19 +11,15 @@ h1 {
 
 .title-top-wrapper {
     font-weight: 300;
+    font-size: 56px;
     text-align: center;
 }
 
 .title-description {
     font-weight: 300;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     animation: fadeIn 0.75s;
-}
-
-.title-mid-wrapper {
-    font-weight: 300;
-    text-align: center;
 }
 
 .top-image {
@@ -35,13 +31,14 @@ h1 {
 .top-image #top-image {
     margin: 16px auto 16px;
     display: block;
-    max-width: 90%;
+    max-width: 99%;
 }
 
 @media screen and (max-width: 768px) {
     .wrapper {
         padding: 8px;
     }
+
     .title-top-wrapper {
         font-size: 36px;
     }
