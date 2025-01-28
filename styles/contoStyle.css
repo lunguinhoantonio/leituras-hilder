@@ -35,3 +35,13 @@ img,
 img {
     animation: fadeIn 0.75s;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0px 8px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}

@@ -37,3 +37,21 @@ h1 {
     display: block;
     max-width: 90%;
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding: 8px;
+    }
+    .title-top-wrapper {
+        font-size: 36px;
+    }
+
+    .title-description {
+        font-size: 13px;
+    }
+
+    .top-image #top-image {
+        margin: 16px auto 16px;
+        max-width: 100%;
+    }
+}

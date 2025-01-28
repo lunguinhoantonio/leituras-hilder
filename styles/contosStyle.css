@@ -33,9 +33,20 @@ main {
 
 .card-title {
     font-size: 24px;
+    text-align: center;
     margin: 8px;
 }
 
 .card-title > p {
     font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        max-width: 768px;
+    }
+    
+    img {
+        max-width: 100%;
+    }
 }
